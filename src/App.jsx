@@ -8,7 +8,7 @@ import {
   Camera, Eye, Layers, Settings, LogOut, RefreshCw
 } from 'lucide-react';
 
-const API_BASE = 'http://localhost:8080/api';
+const API_BASE = 'https://flood-project-back-end.onrender.com/api';
 
 const INITIAL_LEADERSHIP = [
   {
@@ -19,7 +19,7 @@ const INITIAL_LEADERSHIP = [
     phone: "+91 911879 4095",
     email: "kumarpn06434@gmail.com",
     location: "गाजीपुर, उत्तर प्रदेश",
-    image: "https://drive.google.com/file/d/1T9FSJ_WyJPCF8o7otNcnRA3450RDHDY0/view?usp=sharing",
+    image: "https://lh3.googleusercontent.com/d/1T9FSJ_WyJPCF8o7otNcnRA3450RDHDY0",
     badge: "केंद्रीय नेतृत्व"
   },
   {
@@ -30,7 +30,7 @@ const INITIAL_LEADERSHIP = [
     phone: "+91 902615 3578",
     email: "apdaparbandhan@gmail.com",
     location: "महाराजगंज, उत्तर प्रदेश",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+    image: "https://lh3.googleusercontent.com/d/1fJvwHqPhSKWTtzKDUKMN4iX-DA35S32L",
     badge: "कार्यकारी प्रमुख"
   },
   {
