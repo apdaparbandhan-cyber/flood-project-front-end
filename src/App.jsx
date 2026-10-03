@@ -13,34 +13,34 @@ const API_BASE = 'http://localhost:8080/api';
 const INITIAL_LEADERSHIP = [
   {
     id: 1,
-    name: "डॉ. रमेश चंद्र वर्मा",
-    role: "चेयरमैन (Chairman)",
-    designation: "संस्थापक एवं मुख्य संरक्षक",
-    phone: "+91 94150 11223",
-    email: "chairman@floodngo.org",
-    location: "लखनऊ, उत्तर प्रदेश",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+    name: "प्रदीप कुमार",
+    role: "अध्यक्ष(Founder and Chairman)",
+    designation: "संस्थापक एवं अध्यक्ष",
+    phone: "+91 911879 4095",
+    email: "kumarpn06434@gmail.com",
+    location: "गाजीपुर, उत्तर प्रदेश",
+    image: "https://drive.google.com/file/d/1T9FSJ_WyJPCF8o7otNcnRA3450RDHDY0/view?usp=sharing",
     badge: "केंद्रीय नेतृत्व"
   },
   {
     id: 2,
-    name: "श्री अखिलेश्वर प्रताप सिंह",
-    role: "अध्यक्ष (President)",
-    designation: "राष्ट्रीय अध्यक्ष - आपदा प्रबंधन",
-    phone: "+91 98390 44556",
-    email: "president@floodngo.org",
-    location: "प्रयागराज, उत्तर प्रदेश",
+    name: "प्रमोद कुमार रौनियार",
+    role: "उपाध्यक्ष (Vice-President)",
+    designation: "राष्ट्रीय उपाध्यक्ष - आपदा प्रबंधन",
+    phone: "+91 902615 3578",
+    email: "apdaparbandhan@gmail.com",
+    location: "महाराजगंज, उत्तर प्रदेश",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
     badge: "कार्यकारी प्रमुख"
   },
   {
     id: 3,
-    name: "श्रीमती सुनीता देवी त्रिपाठी",
-    role: "उपाध्यक्ष (Vice-President)",
+    name: "अखिलेश कुशवाहा",
+    role: "महामंत्री (General Secretary)",
     designation: "प्रभारी - राहत एवं महिला आश्रय विंग",
-    phone: "+91 91250 77889",
-    email: "vp@floodngo.org",
-    location: "गोरखपुर, उत्तर प्रदेश",
+    phone: "+91 99360 81639",
+    email: "kushwahaakhilesh057@gmail.com",
+    location: "गाजीपुर, उत्तर प्रदेश",
     image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80",
     badge: "क्षेत्रीय समन्वय"
   }
@@ -222,7 +222,7 @@ function Navbar({ isAdminView, setIsAdminView, authToken, onLogout }) {
           <div>
             <div className="flex items-center gap-2">
               <span className="text-xl font-black text-slate-900 tracking-tight leading-none">
-                आपदा राहत संगठन
+                आपदा मित्र वेलफेयर सोसाइटी
               </span>
               <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-blue-100 text-blue-800 uppercase tracking-wider">
                 Govt Regd
@@ -440,9 +440,9 @@ function PublicPortal({ volunteers, selectedLevel, setSelectedLevel, meetings, g
           </div>
 
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[1.15]">
-            जलप्रलय में जीवन की रक्षा, <br />
+            प्राकृतिक एवं मानवजनित, <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-sky-300 to-amber-300">
-              अंतिम पंक्ति तक त्वरित राहत
+              आपदाओं में जीवन रक्षा !
             </span>
           </h1>
 
@@ -497,11 +497,11 @@ function PublicPortal({ volunteers, selectedLevel, setSelectedLevel, meetings, g
               <div className="mt-8 space-y-3.5 text-xs sm:text-sm text-slate-700">
                 <div className="flex items-center gap-3 p-3 bg-white rounded-xl border border-slate-200">
                   <CheckCircle className="w-5 h-5 text-emerald-600 flex-shrink-0" />
-                  <span>पंजीकृत ट्रस्ट रजिस्ट्रेशन नंबर: <strong>REG/DR-2024/8892</strong></span>
+                  <span>पंजीकृत ट्रस्ट रजिस्ट्रेशन नंबर: <strong>GAZ/02414/2025-2026</strong></span>
                 </div>
                 <div className="flex items-center gap-3 p-3 bg-white rounded-xl border border-slate-200">
                   <CheckCircle className="w-5 h-5 text-emerald-600 flex-shrink-0" />
-                  <span>NITI Aayog NGO Darpan ID: <strong>UP/2024/098172</strong></span>
+                  <span>NITI Aayog NGO Darpan ID: <strong>UP/XXXX4/XXXX2</strong></span>
                 </div>
                 <div className="flex items-center gap-3 p-3 bg-white rounded-xl border border-slate-200">
                   <CheckCircle className="w-5 h-5 text-emerald-600 flex-shrink-0" />
@@ -510,9 +510,9 @@ function PublicPortal({ volunteers, selectedLevel, setSelectedLevel, meetings, g
               </div>
             </div>
 
-            <div className="mt-8 pt-6 border-t border-slate-200 flex flex-wrap justify-between gap-4 text-xs font-semibold text-slate-500">
-              <span>मुख्यालय: सिविल लाइंस, प्रयागराज / लखनऊ</span>
-              <span>कार्यक्षेत्र: उत्तर प्रदेश, बिहार, असम व उत्तराखंड</span>
+            <div className="mt-8 pt-6 border-t border-slate-200 flex flex-wrap justify-between gap-2 text-xs font-semibold text-slate-500">
+              <span>मुख्यालय: सुतिहार, गाजीपुर ,उत्तर प्रदेश - 233222</span>
+              <span>कार्यक्षेत्र: उत्तर प्रदेश, बिहार,मध्य प्रदेश व उत्तराखंड</span>
             </div>
           </div>
 
@@ -893,11 +893,12 @@ function PublicPortal({ volunteers, selectedLevel, setSelectedLevel, meetings, g
               </p>
 
               <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200 text-xs sm:text-sm space-y-2.5 mb-6">
-                <div className="flex justify-between"><span className="text-slate-500">ट्रस्ट खाता:</span> <strong>आपदा राहत एवं बचाव फाउंडेशन</strong></div>
+                <div className="flex justify-between"><span className="text-slate-500">ट्रस्ट खाता:</span> <strong>आपदा मित्र वेलफेयर सोसाइटी
+</strong></div>
                 <div className="flex justify-between"><span className="text-slate-500">बैंक:</span> <strong>State Bank of India (SBI)</strong></div>
-                <div className="flex justify-between"><span className="text-slate-500">खाता संख्या:</span> <strong>41029388129</strong></div>
-                <div className="flex justify-between"><span className="text-slate-500">IFSC कोड:</span> <strong>SBIN0001234</strong></div>
-                <div className="flex justify-between"><span className="text-slate-500">आधिकारिक UPI:</span> <strong className="text-blue-700">floodrelief@sbi</strong></div>
+                <div className="flex justify-between"><span className="text-slate-500">खाता संख्या:</span> <strong>45441766412</strong></div>
+                <div className="flex justify-between"><span className="text-slate-500">IFSC कोड:</span> <strong>SBIN0010889</strong></div>
+                <div className="flex justify-between"><span className="text-slate-500">आधिकारिक UPI:</span> <strong className="text-blue-700">xxxxxx@ybl</strong></div>
               </div>
 
               <div className="flex items-center gap-4 p-4 rounded-2xl bg-amber-50 border border-amber-200">
@@ -1652,7 +1653,7 @@ function IdCardModal({ member, onClose }) {
     ctx.fillStyle = "#FFFFFF";
     ctx.font = "bold 28px sans-serif";
     ctx.textAlign = "center";
-    ctx.fillText("आपदा राहत संगठन", 325, 60);
+    ctx.fillText("आपदा मित्र वेलफेयर सोसाइटी", 325, 60);
 
     ctx.font = "14px sans-serif";
     ctx.fillStyle = "#93C5FD";
@@ -1720,7 +1721,7 @@ function IdCardModal({ member, onClose }) {
           <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center mx-auto mb-2 text-white">
             <LifeBuoy className="w-5 h-5" />
           </div>
-          <h3 className="font-black text-lg">आपदा राहत संगठन</h3>
+          <h3 className="font-black text-lg">आपदा मित्र वेलफेयर सोसाइटी</h3>
           <p className="text-[10px] text-blue-200">NATIONAL FLOOD & DISASTER RELIEF MISSION</p>
           <span className="text-[9px] font-bold text-amber-300 block mt-1">TRUST REG: REG/DR-2024/8892</span>
         </div>
@@ -1778,7 +1779,7 @@ function Footer({ setIsAdminView }) {
             <div className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white">
               <LifeBuoy className="w-4 h-4" />
             </div>
-            आपदा राहत संगठन
+            आपदा मित्र वेलफेयर सोसाइटी
           </div>
           <p className="text-xs leading-relaxed text-slate-400">
             बाढ़ व प्राकृतिक आपदाओं में त्वरित बोट रेस्क्यू, खाद्य पैकेट वितरण और स्वास्थ्य सेवा पहुँचाने हेतु समर्पित पंजीकृत गैर-सरकारी ट्रस्ट।
@@ -1806,24 +1807,24 @@ function Footer({ setIsAdminView }) {
 
         <div>
           <h4 className="text-white font-bold mb-3 text-xs uppercase tracking-wider">आपातकालीन संपर्क</h4>
-          <p className="text-xs text-slate-300">24x7 हेल्पलाइन: <strong className="text-white">1800-123-9999</strong></p>
-          <p className="text-xs text-slate-300 mt-1">ईमेल: <strong className="text-white">relief@floodngo.org</strong></p>
-          <p className="text-xs text-slate-300 mt-1">मुख्यालय: सिविल लाइंस, प्रयागराज, उत्तर प्रदेश - 211001</p>
-          <p className="text-xs text-slate-300 mt-1">कैंप कार्यालय: गोमती नगर, लखनऊ, उत्तर प्रदेश</p>
+          <p className="text-xs text-slate-300">24x7 हेल्पलाइन: <strong className="text-white">+91-90261 53578</strong></p>
+          <p className="text-xs text-slate-300 mt-1">ईमेल: <strong className="text-white">apdaparbandhan@gmail.com</strong></p>
+          <p className="text-xs text-slate-300 mt-1">मुख्यालय: सुतिहार, गाजीपुर ,उत्तर प्रदेश - 233222</p>
+          <p className="text-xs text-slate-300 mt-1">कैंप कार्यालय:  सुतिहार, गाजीपुर, उत्तर प्रदेश</p>
         </div>
 
         <div>
           <h4 className="text-white font-bold mb-3 text-xs uppercase tracking-wider">वैधानिक पहचान</h4>
           <p className="text-xs text-slate-400 leading-relaxed">
-            पंजीकृत ट्रस्ट: <strong>REG/DR-2024/8892</strong><br />
-            NITI Aayog Darpan: <strong>UP/2024/098172</strong><br />
+            पंजीकृत ट्रस्ट: <strong>GAZ/02414/2025-2026</strong><br />
+            NITI Aayog Darpan: <strong>UP/xxxx/xxxxx</strong><br />
             आयकर धारा 80G के अंतर्गत सभी दान कर-मुक्त हैं।
           </p>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-6 border-t border-slate-900 text-xs text-center text-slate-500">
-        © 2026 राष्ट्रीय आपदा राहत संगठन। सर्वाधिकार सुरक्षित।
+        © 2026 राष्ट्रीय आपदा मित्र वेलफेयर सोसाइटी। सर्वाधिकार सुरक्षित।
       </div>
     </footer>
   );
