@@ -41,7 +41,7 @@ const INITIAL_LEADERSHIP = [
     phone: "+91 99360 81639",
     email: "kushwahaakhilesh057@gmail.com",
     location: "गाजीपुर, उत्तर प्रदेश",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80",
+    image: "https://lh3.googleusercontent.com/d/1LuHFY9hvwxdxbzWE1m-gMF_OUmTN1HF_",
     badge: "क्षेत्रीय समन्वय"
   }
 ];
