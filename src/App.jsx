@@ -1723,7 +1723,7 @@ function IdCardModal({ member, onClose }) {
           </div>
           <h3 className="font-black text-lg">आपदा मित्र वेलफेयर सोसाइटी</h3>
           <p className="text-[10px] text-blue-200">NATIONAL FLOOD & DISASTER RELIEF MISSION</p>
-          <span className="text-[9px] font-bold text-amber-300 block mt-1">TRUST REG: REG/DR-2024/8892</span>
+          <span className="text-[9px] font-bold text-amber-300 block mt-1">TRUST REG: GAZ/02414/2025-2026</span>
         </div>
 
         <div ref={cardRef} className="p-6 text-center space-y-3 bg-white">
